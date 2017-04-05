@@ -1,0 +1,135 @@
+[{
+  "descriptions": {
+    "en": {
+      "language": "en",
+      "value": "painting by Claude Monet"
+    },
+    "br": {"language": "br", "value": "taolenn gant Claude Monet"},
+    "es": {"language": "es", "value": "cuadro de Claude Monet"},
+    "it": {"language": "it", "value": "dipinto di Claude Monet"},
+    "ast": {"language": "ast", "value": "pintura de Claude Monet"},
+    "gl": {"language": "gl", "value": "pintura de Claude Monet"},
+    "ca": {"language": "ca", "value": "quadre de Claude Monet"},
+    "oc": {"language": "oc", "value": "pintura de Claude Monet"},
+    "fr": {"language": "fr", "value": "peinture de Claude Monet"},
+    "nl": {"language": "nl", "value": "werk van Monet"}
+  },
+  "sitelinks": {
+    "itwiki": {"badges": [], "site": "itwiki", "title": "Regate ad Argenteuil"},
+    "frwiki": {"badges": [], "site": "frwiki", "title": "Régates à Argenteuil"},
+    "nlwiki": {"badges": [], "site": "nlwiki", "title": "Regatta bij Argenteuil"},
+    "ptwiki": {"badges": [], "site": "ptwiki", "title": "Regata em Argenteuil"}
+  },
+  "lastrevid": 461802294,
+  "claims": {
+    "P186": [ // Matériau
+      {
+        "id": "Q3454959$3AFF330B-87B8-4D57-9DAD-5B8EC3FDEE69",
+        "type": "statement", "rank": "normal",
+        "mainsnak": {
+          "snaktype": "value", "property": "P186", "datatype": "wikibase-item",
+          "datavalue": {
+            "type": "wikibase-entityid",
+            "value": {
+              "id": "Q296955", "numeric-id": 296955, "entity-type": "item"
+            }
+          }
+        }
+      },
+      {"id": "Q3454959$A3584C9B-7188-44C0-8A79-1F80CB066523", "rank": "normal", "qualifiers-order": ["P518"], "mainsnak": {"snaktype": "value", "property": "P186", "datatype": "wikibase-item", "datavalue": {"type": "wikibase-entityid", "value": {"id": "Q4259259", "numeric-id": 4259259, "entity-type": "item"}}}, "qualifiers": {"P518": [{"snaktype": "value", "hash": "3386687c52634656b7ea6d25020a1482901e9086", "property": "P518", "datatype": "wikibase-item", "datavalue": {"type": "wikibase-entityid", "value": {"id": "Q861259", "numeric-id": 861259, "entity-type": "item"}}}]}, "type": "statement"}
+    ],
+    "P180": [{"id": "Q3454959$C64C91F6-C7FE-41B5-B4AC-B29183117124", "type": "statement", "rank": "normal", "mainsnak": {"snaktype": "value", "property": "P180", "datatype": "wikibase-item", "datavalue": {"type": "wikibase-entityid", "value": {"id": "Q181946", "numeric-id": 181946, "entity-type": "item"}}}}, {"id": "Q3454959$5f514bba-4835-2eea-7ac6-96972dfc1cfa", "type": "statement", "rank": "normal", "mainsnak": {"snaktype": "value", "property": "P180", "datatype": "wikibase-item", "datavalue": {"type": "wikibase-entityid", "value": {"id": "Q126701", "numeric-id": 126701, "entity-type": "item"}}}}, {"id": "Q3454959$d20e6655-4767-9d12-c208-2391326125f8", "type": "statement", "rank": "normal", "mainsnak": {"snaktype": "value", "property": "P180", "datatype": "wikibase-item", "datavalue": {"type": "wikibase-entityid", "value": {"id": "Q2141830", "numeric-id": 2141830, "entity-type": "item"}}}}],
+    "P195": [{"id": "Q3454959$6C84B9BD-2CB2-4238-A2D9-00DB87019B0B", "references": [{"hash": "f70116eac7f49194478b3025330bfd8dcffa3c69", "snaks-order": ["P143"], "snaks": {"P143": [{"snaktype": "value", "property": "P143", "datatype": "wikibase-item", "datavalue": {"type": "wikibase-entityid", "value": {"id": "Q8447", "numeric-id": 8447, "entity-type": "item"}}}]}}], "type": "statement", "rank": "normal", "mainsnak": {"snaktype": "value", "property": "P195", "datatype": "wikibase-item", "datavalue": {"type": "wikibase-entityid", "value": {"id": "Q23402", "numeric-id": 23402, "entity-type": "item"}}}}], "P170": [{"id": "q3454959$9D550F70-2D98-4D60-BABE-05F9BD0BE2F8", "type": "statement", "rank": "normal", "mainsnak": {"snaktype": "value", "property": "P170", "datatype": "wikibase-item", "datavalue": {"type": "wikibase-entityid", "value": {"id": "Q296", "numeric-id": 296, "entity-type": "item"}}}}],
+    "P135": [{"id": "Q3454959$1D4D5992-C8C2-4044-B82B-44C3B30C69D7", "type": "statement", "rank": "normal", "mainsnak": {"snaktype": "value", "property": "P135", "datatype": "wikibase-item", "datavalue": {"type": "wikibase-entityid", "value": {"id": "Q40415", "numeric-id": 40415, "entity-type": "item"}}}}],
+    "P973": [{"id": "Q3454959$22787E28-24B8-4CF1-AEED-908D7AA67ABB", "type": "statement", "rank": "normal", "mainsnak": {"snaktype": "value", "property": "P973", "datatype": "url", "datavalue": {"type": "string", "value": "http://www.musee-orsay.fr/fr/collections/catalogue-des-oeuvres/notice.html?nnumid=1089"}}}],
+    "P347": [{"id": "q3454959$56FED4EE-F770-480D-9F94-A1B4CC757ED3", "type": "statement", "rank": "normal", "mainsnak": {"snaktype": "value", "property": "P347", "datatype": "external-id", "datavalue": {"type": "string", "value": "000PE003972"}}}],
+    "P18": [{"id": "Q3454959$DA1AACB9-9F14-416E-858F-0434245DB611", "type": "statement", "rank": "normal", "mainsnak": {"snaktype": "value", "property": "P18", "datatype": "commonsMedia", "datavalue": {"type": "string", "value": "Claude Monet 042.jpg"}}}, {"id": "Q3454959$754BBDB1-3B52-49D3-9183-BB45CF25D2E5", "type": "statement", "rank": "normal", "mainsnak": {"snaktype": "value", "property": "P18", "datatype": "commonsMedia", "datavalue": {"type": "string", "value": "Claude Monet - Regattas at Argenteuil - Google Art Project.jpg"}}}],
+    "P136": [{"id": "Q3454959$32F7F8D1-2C78-47F6-970E-55560AC57B56", "type": "statement", "rank": "normal", "mainsnak": {"snaktype": "value", "property": "P136", "datatype": "wikibase-item", "datavalue": {"type": "wikibase-entityid", "value": {"id": "Q191163", "numeric-id": 191163, "entity-type": "item"}}}}],
+    "P217": [{"id": "Q3454959$D1FDD239-01B7-4F08-993F-1793E6A6030A", "rank": "normal", "qualifiers-order": ["P195"], "mainsnak": {"snaktype": "value", "property": "P217", "datatype": "string", "datavalue": {"type": "string", "value": "RF 2778"}}, "qualifiers": {"P195": [{"snaktype": "value", "hash": "31e4ccc6a27e25da0ad284c11e7faa3045c5448e", "property": "P195", "datatype": "wikibase-item", "datavalue": {"type": "wikibase-entityid", "value": {"id": "Q23402", "numeric-id": 23402, "entity-type": "item"}}}]}, "type": "statement"}],
+    "P31": [{"id": "q3454959$A93DD980-ED08-4F2C-800E-DE1CD126CA0D", "type": "statement", "rank": "normal", "mainsnak": {"snaktype": "value", "property": "P31", "datatype": "wikibase-item", "datavalue": {"type": "wikibase-entityid", "value": {"id": "Q3305213", "numeric-id": 3305213, "entity-type": "item"}}}}],
+    "P276": [{"id": "Q3454959$C86E0310-9A4A-43BA-9D07-D32D0C4A5845", "type": "statement", "rank": "normal", "mainsnak": {"snaktype": "value", "property": "P276", "datatype": "wikibase-item", "datavalue": {"type": "wikibase-entityid", "value": {"id": "Q23402", "numeric-id": 23402, "entity-type": "item"}}}}],
+    "P571": [{"id": "Q3454959$E9E746A4-D446-4528-80CE-54D98761DA37", "references": [{"hash": "592714cb87c0fc64425e45a185765982f444e5ad", "snaks-order": ["P143"], "snaks": {"P143": [{"snaktype": "value", "property": "P143", "datatype": "wikibase-item", "datavalue": {"type": "wikibase-entityid", "value": {"id": "Q465", "numeric-id": 465, "entity-type": "item"}}}]}}], "type": "statement", "rank": "normal", "mainsnak": {"snaktype": "value", "property": "P571", "datatype": "time", "datavalue": {"type": "time", "value": {"before": 0, "precision": 9, "calendarmodel": "http://www.wikidata.org/entity/Q1985727", "after": 0, "time": "+1872-01-01T00:00:00Z", "timezone": 0}}}}, {"id": "Q3454959$58558818-BB89-4220-9CA4-1BDA65FB39BF", "type": "statement", "rank": "normal", "mainsnak": {"snaktype": "value", "property": "P571", "datatype": "time", "datavalue": {"type": "time", "value": {"before": 0, "precision": 8, "calendarmodel": "http://www.wikidata.org/entity/Q1985727", "after": 0, "time": "+1872-01-01T00:00:00Z", "timezone": 0}}}}]
+  },
+  "aliases": {"nl": [{"language": "nl", "value": "Regatta in Argenteuil"}], "pt": [{"language": "pt", "value": "Regatas em Argenteuil"}]},
+  "type": "item",
+  "labels": {"en": {"language": "en", "value": "Régates à Argenteuil"}, "nl": {"language": "nl", "value": "Regatta bij Argenteuil"}, "it": {"language": "it", "value": "Regate ad Argenteuil"}, "fr": {"language": "fr", "value": "Régates à Argenteuil"}, "pt": {"language": "pt", "value": "Regata em Argenteuil"}},
+  "id": "Q3454959",
+  "pageid": 3291171,
+  "modified": "2017-03-04T15:28:49Z",
+  "title": "Q3454959",
+  "ns": 0},
+
+
+  {
+    "location": "Musée du Louvre",
+    "uri": "https://histoiredelart.fr/data/item/8801",
+    "date": "1626",
+    "views": {"422": {"thumbnail": "https://histoiredelart.fr/web/uploads/gallery/55bfc099f166b808337412.jpg", "id": 422}},
+    "label": "La Bohémienne",
+    "teachings": [{"label": "Arts du XVIIe siècle", "id": 3}],
+    "sameAs": ["https://www.wikidata.org/wiki/Q3206722"],
+    "id": 8801,
+    "creator": "Frans Hals",
+    "wikidata": {
+      "P217": {
+        "labels": {"fr": {"language": "fr", "value": "numéro d'inventaire"}, "en": {"language": "en", "value": "inventory number"}},
+        "value": "MI 926"
+      },
+      "P973": {
+        "labels": {"fr": {"language": "fr", "value": "décrit à l'URL"}, "en": {"language": "en", "value": "described at URL"}},
+        "value": "http://www.louvre.fr/oeuvre-notices/la-bohemienne"
+      },
+      "P195": {
+        "labels": {"fr": {"language": "fr", "value": "collection"}, "en": {"language": "en", "value": "collection"}},
+        "value": "Q3044768"
+      },
+      "aliases": {"fr": [{"language": "fr", "value": "La Bohémienne (tableau)"}]},
+      "description": {},
+      "P18": {
+        "labels": {"fr": {"language": "fr", "value": "image"}, "en": {"language": "en", "value": "image"}},
+        "value": "Frans Hals - Gypsy Girl - WGA11100.jpg"
+      },
+      "P571": {
+        "labels": {"fr": {"language": "fr", "value": "date de fondation/création"}, "en": {"language": "en", "value": "inception"}},
+        "value": ""
+      },
+      "label": {"fr": {"language": "fr", "value": "La Bohémienne"}, "en": {"language": "en", "value": "The Gipsy Girl"}},
+      "P347": {
+        "labels": {"fr": {"language": "fr", "value": "identifiant Joconde"}, "en": {"language": "en", "value": "Joconde ID"}},
+        "value": "000PE003555"
+      },
+      "P186": {
+        "labels": {"fr": {"language": "fr", "value": "matériau"}, "en": {"language": "en", "value": "material used"}},
+        "value": "Q296955Q287"
+      },
+      "P136": {
+        "labels": {"fr": {"language": "fr", "value": "genre"}, "en": {"language": "en", "value": "genre"}},
+        "value": "Q1400853"
+      },
+      "P373": {
+        "labels": {"fr": {"language": "fr", "value": "catégorie Commons"}, "en": {"language": "en", "value": "Commons category"}},
+        "value": "The Gipsy Girl (Frans Hals)"
+      },
+      "P1212": {
+        "labels": {"fr": {"language": "fr", "value": "identifiant Atlas"}, "en": {"language": "en", "value": "Atlas ID"}},
+        "value": "10397"
+      },
+      "P276": {
+        "labels": {"fr": {"language": "fr", "value": "lieu"}, "en": {"language": "en", "value": "location"}},
+        "value": "Q19018624"
+      },
+      "P170": {
+        "labels": {"fr": {"language": "fr", "value": "créateur"}, "en": {"language": "en", "value": "creator"}},
+        "value": "Q167654"
+      },
+      "P31": {
+        "labels": {"fr": {"language": "fr", "value": "nature de l'élément"}, "en": {"language": "en", "value": "instance of"}},
+        "value": "Q3305213"
+      },
+      "P180": {
+        "labels": {"fr": {"language": "fr", "value": "dépeint"}, "en": {"language": "en", "value": "depicts"}},
+        "value": "Q467Q487Q1922956Q14130Q8060Q930924Q200539Q2087952Q116887Q43748Q17244465Q76768"
+      }
+    }
+  }
+]
