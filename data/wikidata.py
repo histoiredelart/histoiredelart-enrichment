@@ -20,16 +20,37 @@ def get_qwd(url):
 
 
 def get_entity(qwd):
-    response = urllib.request.urlopen(
-        'http://www.wikidata.org/w/api.php?action=wbgetentities&ids='+qwd+'&format=json')
-    result = json.loads(response.read().decode(response.info().get_param('charset') or 'utf-8'))['entities'][qwd]
-    return result
+    if qwd is not None:
+        response = urllib.request.urlopen(
+            'http://www.wikidata.org/w/api.php?action=wbgetentities&ids='+qwd+'&format=json')
+        result = json.loads(response.read().decode(response.info().get_param('charset') or 'utf-8'))['entities'][qwd]
+        return result
+    else:
+        return None
 
 
 def search_entity(query):
-    response = urllib.request.urlopen(
-        'https://www.wikidata.org/w/api.php?action=wbsearchentities&search='+urllib.parse.quote(str(query))+'&language=fr&format=json')
-    result = json.loads(response.read().decode(response.info().get_param('charset') or 'utf-8'))
+    try:
+        response = urllib.request.urlopen(
+            'https://www.wikidata.org/w/api.php?action=wbsearchentities&search=' + urllib.parse.quote(
+                str(query)) + '&limit=20&language=fr&format=json')
+        result = json.loads(response.read().decode(response.info().get_param('charset') or 'utf-8'))
+    except urllib.error.URLError as e:
+        print(e.reason)
+        result = None
+    except UnicodeEncodeError:
+        print("There was an error encrypting...")
+        result = None
+    except IsADirectoryError:
+        print("There was an error for directory...")
+        result = None
+    except ConnectionResetError:
+        print("Connection reset by peer ...")
+        result = None
+    except TimeoutError:
+        print("TimeoutError ...")
+        result = None
+
     return result
 
 
